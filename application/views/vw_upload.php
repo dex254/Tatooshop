@@ -1,0 +1,78 @@
+<!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="page-title-box">
+                                <h4>Form File Upload</h4>
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Lexa</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Forms</a></li>
+                                        <li class="breadcrumb-item active">Form File Upload</li>
+                                    </ol>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="state-information d-none d-sm-block">
+                                <div class="state-graph">
+                                    <div id="header-chart-1"></div>
+                                    <div class="info">Balance $ 2,317</div>
+                                </div>
+                                <div class="state-graph">
+                                    <div id="header-chart-2"></div>
+                                    <div class="info">Item Sold 1230</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h4 class="card-title">Dropzone</h4>
+                                    <p class="card-title-desc">DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews.
+                                    </p>
+
+                                    <div>
+
+                                        <form action="upload/upload_file"  method="post"  enctype="multipart/form-data">
+
+                                          </div>
+                                            <div class="fallback">
+                                                <input  type="file" name="image" id="image"  multiple="multiple">
+                                                <input  type="submit" value="upload">
+                                            </div>
+
+
+
+                                        </form>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+
+
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
